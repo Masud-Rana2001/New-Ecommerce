@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+}
+
+/* navigation bar code  */
+header nav{
+background-image: linear-gradient(rgb(25, 151, 156),rgb(26, 98, 112));
+box-shadow: 0px 0px 5px #4444;
+}
+.navbar-brand img{
+    height: 10vh;
+    max-width: 150px; 
+}
+
+.nav-search .btn{
+right: 0;
+top: 0;
+border-radius: 50px;
+background-color: rgba(255, 124, 1, 0.99);
+width: 100px;
+padding: 8px;
+color: rgba(240, 248, 255, 0.824);
+font-weight: 500;
+}
+.nav-search input{
+width: 300px;
+border-radius: 50px;
+padding:8px 15px;
+}
+
+#carouselExampleFade{
+    background-color:#F7F7F7;
+}
+.carousel-text .casrasel-title{
+    font-size: 68px;
+    font-weight: 600;
+    color:#198754;
+    line-height: 1.2;
+}
+.carousel-text .casrasel-title .online , .time{
+    color: #FD7E14;
+}
+.carousel-text{
+    padding: 20px;
+} 
+.carousel-p2{
+    color: rgb(116, 103, 103);
+}
+.carousel-a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 1.2rem;
+font-weight: 600;
+background-color: #FD7E14;
+padding: 8px 15px;
+border-radius: 30px;
+transition: all 0.5s;
+}
+.carousel-a:hover{
+background-color: #198754; 
+}
+.carosel-image img{
+    width: 100%;
+    height: 450px;
+    padding: 30px;
+}
+.card{
+    overflow: hidden;
+}
+.card-images{
+    transition: 0.5s;
+    max-height: 70%;
+}
+.card-images:hover{
+    transform: scale(1.15);
+}
+#fresh-parent{
+    background-color: rgba(158, 155, 155, 0.195);
+    height: 300px;
+}
+.fresh-img img{
+    margin-top: 30px;
+}
+
+#card-height{
+ background-color: #9f9d9d29;
+ border: none;
+ height: 430px;
+}
+.banner{
+background-image: url(images/banner.jpg);
+width: 100%;
+background-position: center  center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 400px;
+}
+.banner p{
+color: #863d86;
+font-size: 68px;
+font-weight: 700;
+text-shadow: 0px 0px 3px gray;
+
+
+}
+.footer-ul li{
+    transition: all 0.5s;
+}
+.footer-ul li:hover{
+    padding-left: 5px;
+    color: #198754;
+    font-weight: 600;
+}
